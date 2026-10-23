@@ -1,0 +1,13 @@
+node_modules
+.next
+data
+
+# Secrets: every .env file except the empty example
+.env
+.env.*
+!.env.example
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
